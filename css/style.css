@@ -1,0 +1,58 @@
+@media only screen and (max-width: 720px){
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    padding: 15px 10px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+#header-img {
+    width: 50%;
+}
+.info {
+    text-align: center;
+}
+.info > p {
+    font-size: 24px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+#email {
+    border: 1px solid #808080;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    width: 25%;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background: orange;
+    border: none;
+}
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
